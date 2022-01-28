@@ -1,3 +1,18 @@
+//An element is called a peak element if its value is not smaller than the value of its adjacent elements(if they exists).....
+Example 1:
+Input:
+N = 3
+arr[] = {1,2,3}
+Output: 2
+Explanation: index 2 is 3.
+It is the peak element as it is 
+greater than its neighbour 2.
+
+Your Task:
+You don't have to read input or print anything. Complete the function peakElement() which takes the array arr[] and its size N as input parameters and (((return the index of any one of its peak elements.)))
+
+
+
 #include<iostream>
 using namespace std;
 
@@ -9,8 +24,8 @@ int i, s;
 for(i=0;i<n;i++)
 {
  if(arr[i]>arr[i-1])
-   s = i;
-   //s = arr[i];
+   s = i; 
+   //s = arr[i]; // it will return the peak element...
 
 
 }
